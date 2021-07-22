@@ -3,7 +3,7 @@ package testNG;
 import com.epam.tat.module4.Calculator;
 import org.testng.annotations.*;
 
-public class baseCalculatorTest {
+public class testNgBaseCalculatorTest {
     Calculator calculator;
 
     @BeforeClass(groups = "main")

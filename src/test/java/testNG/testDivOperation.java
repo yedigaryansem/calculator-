@@ -1,10 +1,9 @@
 package testNG;
 
-import com.epam.tat.module4.Calculator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class testDivOperation extends baseCalculatorTest{
+public class testDivOperation extends testNgBaseCalculatorTest {
 
     @Test(groups = "bug")
     public void testDivFunction(){

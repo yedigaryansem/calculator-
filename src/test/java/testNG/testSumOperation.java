@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class testSumOperation extends baseCalculatorTest {
+public class testSumOperation extends testNgBaseCalculatorTest {
 
     @Test(dataProvider = "dataForSumFunction")
     public void testSumFunction(long firstTestValue, long secondTestValue, long expectedSumResult){

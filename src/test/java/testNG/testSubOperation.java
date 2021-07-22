@@ -3,7 +3,7 @@ package testNG;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class testSubOperation extends baseCalculatorTest{
+public class testSubOperation extends testNgBaseCalculatorTest {
 
     @Test
     public void testSubFunction(){

@@ -3,7 +3,7 @@ package testNG;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class testCosOperation extends baseCalculatorTest{
+public class testCosOperation extends testNgBaseCalculatorTest {
 
     @Test(groups = "bug")
     public void testCosFunction(){
